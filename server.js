@@ -30,8 +30,7 @@ app.use(cors({
   origin: [
     "http://localhost:3001",
     "http://localhost:3000",  
-    "https://yourdomain.com", 
-    "https://repairing-rishton-ki-web.onrender.com/"
+    "https://repairing-rishton-ki-web.onrender.com"
   ],
   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
   allowedHeaders: ["Content-Type", "Authorization"],
